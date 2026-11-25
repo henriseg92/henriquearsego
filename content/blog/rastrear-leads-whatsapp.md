@@ -3,7 +3,7 @@ title: "Como saber de qual anúncio veio cada cliente que te chama no WhatsApp"
 description: "O botão de WhatsApp é ótimo para converter e péssimo para medir. Veja quatro formas de ligar cada conversa à campanha que a gerou — da mais simples à mais completa."
 date: 2026-11-25
 tags: [WhatsApp, Rastreamento, Google Ads, Meta Ads, CRM]
-draft: true
+draft: false
 ---
 
 Para negócio local, o WhatsApp é o principal canal de venda. O cliente vê o anúncio, clica no botão verde e começa a conversar. Simples para ele — e um buraco negro para quem precisa medir.

@@ -3,7 +3,7 @@ title: "Perfil da Empresa no Google: o checklist que eu uso com negócios locais
 description: "O antigo Google Meu Negócio ainda é o canal mais barato para quem atende na própria cidade. Um checklist prático para aparecer no mapa — e medir o que vem dele."
 date: 2026-11-25
 tags: [Google Meu Negócio, SEO local, Negócio local]
-draft: true
+draft: false
 ---
 
 Quando alguém pesquisa "dentista em Chapecó" ou "conserto de celular perto de mim", os primeiros resultados não são sites — são as empresas no mapa. Esse bloco vem do **Perfil da Empresa no Google**, o antigo Google Meu Negócio.

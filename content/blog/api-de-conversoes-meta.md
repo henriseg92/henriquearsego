@@ -3,7 +3,7 @@ title: "Por que o Meta Ads mostra menos vendas do que você fez — e como a API
 description: "Bloqueadores, iPhone e cookies que expiram fazem o pixel perder conversões. Entenda o que é a API de Conversões (CAPI), quando ela faz diferença e os erros mais comuns na implementação."
 date: 2026-11-25
 tags: [Meta Ads, API de Conversões, Rastreamento]
-draft: true
+draft: false
 ---
 
 Se você anuncia no Meta Ads, provavelmente já passou por isso: o mês fecha, o caixa mostra 40 vendas e o Gerenciador de Anúncios mostra 22. A diferença não é erro de digitação — é rastreamento quebrado. E isso custa mais do que um relatório bonito: o algoritmo do Meta otimiza a entrega com base nas conversões que *enxerga*. Se ele vê metade, aprende com metade.
