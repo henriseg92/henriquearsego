@@ -75,6 +75,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground/70">
             <p>© 2026 Henrique Arsego. Todos os direitos reservados.</p>
             <div className="flex items-center gap-6">
+              <Link to="/blog" className="hover:text-accent transition-colors">Blog</Link>
               <Link to="/politica-de-privacidade" className="hover:text-accent transition-colors">Política de Privacidade</Link>
               <span className="hover:text-accent transition-colors cursor-pointer">Termos de Uso</span>
             </div>

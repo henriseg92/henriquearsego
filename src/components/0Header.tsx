@@ -1,9 +1,15 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Phone } from "lucide-react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
-const Header = () => {
+interface HeaderProps {
+  /** Mostra o link "Blog" — usado só nas páginas do blog, a home segue sem navegação. */
+  showBlogLink?: boolean;
+}
+
+const Header = ({ showBlogLink = false }: HeaderProps) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [heroCtaPassed, setHeroCtaPassed] = useState(false);
   const whatsappLink =
@@ -65,6 +71,14 @@ const Header = () => {
           {/* No nav links — this page exists to convert paid traffic,
               not to be browsed. One phone number, one CTA. */}
           <div className="flex items-center gap-3 sm:gap-6">
+            {showBlogLink && (
+              <Link
+                to="/blog"
+                className="hidden sm:inline text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                Blog
+              </Link>
+            )}
             <a
               href="tel:+5551996719696"
               className="hidden sm:flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors font-mono"
